@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5fa;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #183b66;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1769aa;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #104b7a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1769aa;
+    color: white;
+}
+
+.edit {
+    background-color: #e5a000;
+}
+
+.delete {
+    background-color: #d93025;
+}
+
+#message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
